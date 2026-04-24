@@ -1,0 +1,202 @@
+/* ================= style.css ================= */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+background:#f6f7f9;
+color:#222;
+}
+
+
+/* NAVBAR */
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:25px;
+font-size:15px;
+cursor:pointer;
+}
+
+.logo{
+color:#1dbf73;
+}
+
+
+/* HERO SECTION */
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(to bottom,#f3e7d7,#ffffff);
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.primary-btn{
+padding:14px 32px;
+border:none;
+background:#1dbf73;
+color:white;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+.primary-btn:hover{
+background:#159a5c;
+}
+
+.secondary-btn{
+padding:12px 28px;
+border:none;
+background:#333;
+color:white;
+border-radius:25px;
+cursor:pointer;
+}
+
+
+/* FEATURES SECTION */
+.features{
+display:flex;
+justify-content:center;
+gap:120px;
+padding:80px 40px;
+flex-wrap:wrap;
+background:white;
+}
+
+.feature-text{
+max-width:420px;
+}
+
+.feature-text h2{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.feature-text p{
+font-size:16px;
+margin-bottom:20px;
+line-height:1.6;
+}
+
+
+/* DEVICE SECTION */
+.devices{
+text-align:center;
+padding:80px 20px;
+}
+
+.devices h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.devices p{
+margin-bottom:25px;
+font-size:16px;
+}
+
+
+/* ADVANTAGES SECTION */
+.advantages{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:80px 40px;
+background:white;
+flex-wrap:wrap;
+}
+
+.card{
+width:260px;
+background:#f9fafb;
+padding:25px;
+border-radius:14px;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card h3{
+margin-bottom:12px;
+}
+
+
+/* STATS SECTION */
+.stats{
+text-align:center;
+padding:100px 20px;
+background:#efe6df;
+}
+
+.stats h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.stats-box{
+display:flex;
+justify-content:center;
+gap:80px;
+flex-wrap:wrap;
+}
+
+.stats-box h1{
+font-size:40px;
+color:#1dbf73;
+}
+
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:25px;
+background:#222;
+color:white;
+font-size:14px;
+}
+
+
+/* RESPONSIVE DESIGN */
+@media(max-width:768px){
+
+.hero h1{
+font-size:34px;
+}
+
+.features{
+gap:40px;
+}
+
+.navbar{
+padding:20px;
+}
+
+}
