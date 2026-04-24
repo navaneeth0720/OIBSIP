@@ -1,0 +1,106 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.logo{
+color:#facc15;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:100px 40px;
+}
+
+.hero img{
+border-radius:20px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+background:#facc15;
+border:none;
+cursor:pointer;
+}
+
+
+/* ABOUT */
+
+.about{
+text-align:center;
+padding:80px;
+background:#020617;
+}
+
+
+/* SKILLS */
+
+.skills{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:80px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:12px;
+width:220px;
+text-align:center;
+}
+
+
+/* PROJECTS */
+
+.projects{
+text-align:center;
+padding:80px;
+}
+
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+padding:80px;
+background:#020617;
+}
+
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
